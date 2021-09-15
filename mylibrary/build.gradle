@@ -49,7 +49,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.mvk.mylibrary'
                 artifactId = 'mvk-logout-library'
-                version = '1.0.0'
+                version = '1.0.1'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -58,7 +58,7 @@ afterEvaluate {
 
                 groupId = 'com.mvk.mylibrary'
                 artifactId = 'mvk-logout-library-debug'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
