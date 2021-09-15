@@ -9,7 +9,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        minSdk 26
+        minSdk 24
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -49,17 +49,8 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.mvk.mylibrary'
                 artifactId = 'mvk-logout-library'
-                version = '1.0.3'
+                version = '1.0.4'
             }
-            // Creates a Maven publication called “debug”.
-//            debug(MavenPublication) {
-//                // Applies the component for the debug build variant.
-//                from components.debug
-//
-//                groupId = 'com.mvk.mylibrary'
-//                artifactId = 'mvk-logout-library-debug'
-//                version = '1.0.1'
-//            }
         }
     }
 }
