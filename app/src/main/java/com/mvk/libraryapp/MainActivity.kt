@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
 
 	private lateinit var binding: ActivityMainBinding
 
+	private var db: String = "DB"
+//	private var sharedPreferences = SharedPreferences.Editor()
+
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -22,9 +25,9 @@ class MainActivity : AppCompatActivity() {
 		binding.mainBtn.setOnClickListener {
 			val intent = Intent(this, LibraryActivity::class.java)
 			startActivity(intent)
-			LibraryActivity.initLogoutCallback {
-				logoutUser(it)
-			}
+//			LibraryActivity.initLogoutCallback {
+//				logoutUser(it)
+//			}
 		}
 	}
 
