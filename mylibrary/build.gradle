@@ -31,9 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures {
-        dataBinding = true
-    }
+//    buildFeatures {
+//        dataBinding = true
+//    }
 }
 
 // Because the components are created only during the afterEvaluate phase, you must
@@ -49,7 +49,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.mvk.mylibrary'
                 artifactId = 'mvk-logout-library'
-                version = '1.0.8'
+                version = '1.0.10'
             }
         }
     }
