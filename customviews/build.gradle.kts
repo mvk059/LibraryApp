@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("maven-publish")
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")
@@ -36,6 +37,21 @@ android {
     }
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components.getByName("release"))
+                groupId = "com.mvk.customviews"
+                artifactId = "mvk-customviews-library"
+                version = "1.0.11"
+            }
+        }
     }
 }
 
