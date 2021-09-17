@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorStatusBar</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="colorAccent">@color/colorStatusBar</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="AndroidHeadingRoboto16Pt">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AndroidHeadingRoboto14Pt">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

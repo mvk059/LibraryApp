@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import com.mvk.customviews.SimpleAlertDialog
 import com.mvk.libraryapp.databinding.ActivityMainBinding
 import com.mvk.mylibrary.LibraryActivity
 
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
 	private lateinit var binding: ActivityMainBinding
 
-	private var db: String = "DB"
+//	private var db: String = "DB"
 //	private var sharedPreferences = SharedPreferences.Editor()
 
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,8 +24,19 @@ class MainActivity : AppCompatActivity() {
 
 	private fun navigateToNextPage() {
 		binding.mainBtn.setOnClickListener {
-			val intent = Intent(this, LibraryActivity::class.java)
-			startActivity(intent)
+			SimpleAlertDialog.showDialog(
+				fragmentTransaction = supportFragmentManager.beginTransaction(),
+				context = this,
+				title = "Title",
+				message = "Message",
+				onPositiveClickListener = {
+
+				},
+				negativeText = "Cancel"
+
+			)
+//			val intent = Intent(this, LibraryActivity::class.java)
+//			startActivity(intent)
 //			LibraryActivity.initLogoutCallback {
 //				logoutUser(it)
 //			}

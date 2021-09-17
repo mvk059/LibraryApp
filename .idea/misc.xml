@@ -3,7 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../.gradle/caches/transforms-3/4dc4564b881a1835b558bd4dc49aff09/transformed/jetified-LibraryApp-1.0.8/res/layout/activity_library.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2838541666666667" />
+        <entry key="customviews/src/main/res/drawable/bg_corner_white.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/bg_left_corner_radius_grey.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/common_textview_background.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/custom_border_error.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/dialog_background.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/dialog_background_with_inset.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/main_button_disabled.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/main_button_enabled.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/pill_bg_white.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/drawable/selected_edit_text.xml" value="0.21944444444444444" />
+        <entry key="customviews/src/main/res/layout/layout_simple_alert_dialog.xml" value="0.2833333333333333" />
         <entry key="mylibrary/src/main/res/layout/activity_library.xml" value="0.2838541666666667" />
       </map>
     </option>

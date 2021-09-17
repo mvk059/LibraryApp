@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibraryApp.iml" filepath="$PROJECT_DIR$/.idea/modules/LibraryApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LibraryApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LibraryApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customviews/LibraryApp.customviews.iml" filepath="$PROJECT_DIR$/.idea/modules/customviews/LibraryApp.customviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyLibrary/LibraryApp.mylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/MyLibrary/LibraryApp.mylibrary.iml" />
     </modules>
   </component>
